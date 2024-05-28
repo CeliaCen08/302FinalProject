@@ -1,0 +1,80 @@
+/* .fira-mono-regular {
+    font-family: "Fira Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .fira-mono-medium {
+    font-family: "Fira Mono", monospace;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .fira-mono-bold {
+    font-family: "Fira Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+  }
+   */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Fira Mono", monospace;
+    box-sizing: border-box;
+}
+
+body {
+    background: #FFD4EA;
+    color: #fff;
+}
+
+H1 {
+    text-align: center;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+}
+
+.left, .right {
+    flex-basis: 50%;
+    padding: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 28%;
+    background: white;
+    color: #aa186d;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+iframe {
+    width: 100%;
+    height: 95%;
+    background: #fff;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+}
+
+label i {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    background: #FF8AC6;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
